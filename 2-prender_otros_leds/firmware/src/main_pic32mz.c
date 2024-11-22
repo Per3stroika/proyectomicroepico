@@ -1,10 +1,9 @@
 #include <xc.h>
-#include <stdlib.h>
 
 void setup(void)
 {
     // Habilitamos el port RJ7 como salida (LED1)
-    TRISJ &= 0xFF7F; // 0000 0000 1000 0000
+    TRISJ &= 0xFF7F; // 1111 1111 0111 1111
     
     // Habilitamos el port RK7 como salida (LED2)
     TRISK &= 0xFF7F;

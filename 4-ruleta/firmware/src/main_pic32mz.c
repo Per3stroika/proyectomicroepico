@@ -3,7 +3,7 @@
 
 #define Get_bit(reg, bit)      ((reg >> bit) & 0x1U)
 #define Set_bit(reg, bit)      (reg |= (0x1U << bit))
-#define Clr_bit(reg, bit)      (reg &= (0xFFFF ^ (0x1u << bit)))
+#define Clr_bit(reg, bit)      (reg &= ~(0x1u << bit))
 
 #define SW1_Get()               (Get_bit(PORTJ, 4) == 0)
 #define SW2_Get()               (Get_bit(PORTJ, 5) == 0)

@@ -3,25 +3,25 @@ Optional file vector_offset_init.o not found
 Archive member included to satisfy reference by file (symbol)
 
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
-                              /tmp/ccPCHbJT.o (_on_reset)
+                              /tmp/cc7DBMr7.o (_on_reset)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
-                              /tmp/ccPCHbJT.o (_on_bootstrap)
+                              /tmp/cc7DBMr7.o (_on_bootstrap)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-nmi-handler.o)
-                              /tmp/ccPCHbJT.o (_nmi_handler)
+                              /tmp/cc7DBMr7.o (_nmi_handler)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_data_init_core.o)
-                              /tmp/ccPCHbJT.o (__pic32_data_init)
+                              /tmp/cc7DBMr7.o (__pic32_data_init)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_init_cache.o)
-                              /tmp/ccPCHbJT.o (__pic32_init_cache)
+                              /tmp/cc7DBMr7.o (__pic32_init_cache)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_init_tlb_ebi_sqi.o)
-                              /tmp/ccPCHbJT.o (__pic32_tlb_init_ebi_sqi)
+                              /tmp/cc7DBMr7.o (__pic32_tlb_init_ebi_sqi)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(general-exception.o)
-                              /tmp/ccPCHbJT.o (_general_exception_context)
+                              /tmp/cc7DBMr7.o (_general_exception_context)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(cache-err-exception.o)
-                              /tmp/ccPCHbJT.o (_cache_err_exception_context)
+                              /tmp/cc7DBMr7.o (_cache_err_exception_context)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(simple-tlb-refill-exception.o)
-                              /tmp/ccPCHbJT.o (_simple_tlb_refill_exception_context)
+                              /tmp/cc7DBMr7.o (_simple_tlb_refill_exception_context)
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
-                              /tmp/ccB7IoNv.o (_DefaultInterrupt)
+                              /tmp/cc8BUSOG.o (_DefaultInterrupt)
 
 Optional file vector_offset_init.o not found
 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(pic32_data_init_clear.o)
@@ -116,8 +116,8 @@ Microchip PIC32 Memory-Usage Report By Module
         2360           0           0        2360         938    interrupts.o                 build/pic32mz_ef_curiosity_v2/production/_ext/969001572/interrupts.o
         1476           0          52        1528         5f8    plib_i2c1_master.o           build/pic32mz_ef_curiosity_v2/production/_ext/1620630455/plib_i2c1_master.o
         1008           0           0        1008         3f0    data_init                    data_init
-           0         824           0         824         338    ccMxt2cr.o                   /tmp/ccMxt2cr.o
-         600           0           0         600         258    ccPCHbJT.o                   /tmp/ccPCHbJT.o
+           0         824           0         824         338    ccXEuDjG.o                   /tmp/ccXEuDjG.o
+         600           0           0         600         258    cc7DBMr7.o                   /tmp/cc7DBMr7.o
          448          36           0         484         1e4    pic32_init_cache.o           libpic32.a
          328           0         148         476         1dc    plib_dmac.o                  build/pic32mz_ef_curiosity_v2/production/_ext/89445205/plib_dmac.o
          220           0           0         220          dc    general-exception.o          libpic32.a
@@ -211,7 +211,7 @@ Discarded input sections
  .debug_abbrev  0x0000000000000000       0x14 build/pic32mz_ef_curiosity_v2/production/_ext/1520887106/plib_cache_pic32mz.o
  .debug_aranges
                 0x0000000000000000       0x20 build/pic32mz_ef_curiosity_v2/production/_ext/1520887106/plib_cache_pic32mz.o
- .debug_str     0x0000000000000000       0xa6 build/pic32mz_ef_curiosity_v2/production/_ext/1520887106/plib_cache_pic32mz.o
+ .debug_str     0x0000000000000000       0xb4 build/pic32mz_ef_curiosity_v2/production/_ext/1520887106/plib_cache_pic32mz.o
  .text          0x0000000000000000        0x0 build/pic32mz_ef_curiosity_v2/production/_ext/412755682/plib_clk.o
  .data          0x0000000000000000        0x0 build/pic32mz_ef_curiosity_v2/production/_ext/412755682/plib_clk.o
  .bss           0x0000000000000000        0x0 build/pic32mz_ef_curiosity_v2/production/_ext/412755682/plib_clk.o
@@ -427,31 +427,31 @@ Discarded input sections
  .reginfo       0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/production/_ext/1360937237/main_pic32mz.o
  .MIPS.abiflags
                 0x0000000000000000       0x18 build/pic32mz_ef_curiosity_v2/production/_ext/1360937237/main_pic32mz.o
- .text          0x0000000000000000        0x0 /tmp/ccPCHbJT.o
- .data          0x0000000000000000        0x0 /tmp/ccPCHbJT.o
- .bss           0x0000000000000000        0x0 /tmp/ccPCHbJT.o
- .reginfo       0x0000000000000000       0x18 /tmp/ccPCHbJT.o
+ .text          0x0000000000000000        0x0 /tmp/cc7DBMr7.o
+ .data          0x0000000000000000        0x0 /tmp/cc7DBMr7.o
+ .bss           0x0000000000000000        0x0 /tmp/cc7DBMr7.o
+ .reginfo       0x0000000000000000       0x18 /tmp/cc7DBMr7.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 /tmp/ccPCHbJT.o
- .text          0x0000000000000000        0x0 /tmp/cc1irFbx.o
- .data          0x0000000000000000        0x0 /tmp/cc1irFbx.o
- .bss           0x0000000000000000        0x0 /tmp/cc1irFbx.o
- .reginfo       0x0000000000000000       0x18 /tmp/cc1irFbx.o
+                0x0000000000000000       0x18 /tmp/cc7DBMr7.o
+ .text          0x0000000000000000        0x0 /tmp/cct81eKF.o
+ .data          0x0000000000000000        0x0 /tmp/cct81eKF.o
+ .bss           0x0000000000000000        0x0 /tmp/cct81eKF.o
+ .reginfo       0x0000000000000000       0x18 /tmp/cct81eKF.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 /tmp/cc1irFbx.o
- .text          0x0000000000000000        0x0 /tmp/ccMxt2cr.o
- .data          0x0000000000000000        0x0 /tmp/ccMxt2cr.o
- .bss           0x0000000000000000        0x0 /tmp/ccMxt2cr.o
- .reginfo       0x0000000000000000       0x18 /tmp/ccMxt2cr.o
+                0x0000000000000000       0x18 /tmp/cct81eKF.o
+ .text          0x0000000000000000        0x0 /tmp/ccXEuDjG.o
+ .data          0x0000000000000000        0x0 /tmp/ccXEuDjG.o
+ .bss           0x0000000000000000        0x0 /tmp/ccXEuDjG.o
+ .reginfo       0x0000000000000000       0x18 /tmp/ccXEuDjG.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 /tmp/ccMxt2cr.o
- .text          0x0000000000000000        0x0 /tmp/ccB7IoNv.o
- .data          0x0000000000000000        0x0 /tmp/ccB7IoNv.o
- .bss           0x0000000000000000        0x0 /tmp/ccB7IoNv.o
- .reginfo       0x0000000000000000       0x18 /tmp/ccB7IoNv.o
+                0x0000000000000000       0x18 /tmp/ccXEuDjG.o
+ .text          0x0000000000000000        0x0 /tmp/cc8BUSOG.o
+ .data          0x0000000000000000        0x0 /tmp/cc8BUSOG.o
+ .bss           0x0000000000000000        0x0 /tmp/cc8BUSOG.o
+ .reginfo       0x0000000000000000       0x18 /tmp/cc8BUSOG.o
  .MIPS.abiflags
-                0x0000000000000000       0x18 /tmp/ccB7IoNv.o
- .discard       0x0000000000000000        0x4 /tmp/ccB7IoNv.o
+                0x0000000000000000       0x18 /tmp/cc8BUSOG.o
+ .discard       0x0000000000000000        0x4 /tmp/cc8BUSOG.o
  .data          0x0000000000000000        0x0 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
  .bss           0x0000000000000000        0x0 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
  .reginfo       0x0000000000000000       0x18 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
@@ -1212,16 +1212,16 @@ END GROUP
 
 .reset          0x00000000bfc00000      0x1c4
  *(.reset)
- .reset         0x00000000bfc00000       0x18 /tmp/ccPCHbJT.o
+ .reset         0x00000000bfc00000       0x18 /tmp/cc7DBMr7.o
                 0x00000000bfc00000                _reset
  *(.reset.startup)
  .reset.startup
-                0x00000000bfc00018      0x1ac /tmp/ccPCHbJT.o
+                0x00000000bfc00018      0x1ac /tmp/cc7DBMr7.o
                 0x00000000bfc00018                _startup
 
 .bev_excpt      0x00000000bfc00380       0x10
  *(.bev_handler)
- .bev_handler   0x00000000bfc00380       0x10 /tmp/ccPCHbJT.o
+ .bev_handler   0x00000000bfc00380       0x10 /tmp/cc7DBMr7.o
 
 .cache_init     0x00000000bfc004b0      0x1c0
  *(.cache_init)
@@ -1236,17 +1236,17 @@ END GROUP
                 0x000000009d000000       0x10
  *(.simple_tlb_refill_vector)
  .simple_tlb_refill_vector
-                0x000000009d000000       0x10 /tmp/ccPCHbJT.o
+                0x000000009d000000       0x10 /tmp/cc7DBMr7.o
 
 .cache_err_excpt
                 0x000000009d000100       0x10
  *(.cache_err_vector)
  .cache_err_vector
-                0x000000009d000100       0x10 /tmp/ccPCHbJT.o
+                0x000000009d000100       0x10 /tmp/cc7DBMr7.o
 
 .app_excpt      0x000000009d000180       0x10
  *(.gen_handler)
- .gen_handler   0x000000009d000180       0x10 /tmp/ccPCHbJT.o
+ .gen_handler   0x000000009d000180       0x10 /tmp/cc7DBMr7.o
 
 .vectors        0x000000009d000200       0x70
                 0x000000009d000200                . = ALIGN (0x4)
@@ -2388,25 +2388,25 @@ END GROUP
  .debug_abbrev  0x00000000000011d6       0x2e /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
  .debug_abbrev  0x0000000000001204       0x31 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
 
-.debug_line     0x0000000000000000     0x2e59
+.debug_line     0x0000000000000000     0x2f1d
  *.elf(.debug_line)
  *(.debug_line)
- .debug_line    0x0000000000000000      0x356 build/pic32mz_ef_curiosity_v2/production/_ext/1520887106/plib_cache.o
- .debug_line    0x0000000000000356      0x1b2 build/pic32mz_ef_curiosity_v2/production/_ext/412755682/plib_clk.o
- .debug_line    0x0000000000000508      0x7ce build/pic32mz_ef_curiosity_v2/production/_ext/89445205/plib_dmac.o
- .debug_line    0x0000000000000cd6      0x317 build/pic32mz_ef_curiosity_v2/production/_ext/89406517/plib_evic.o
- .debug_line    0x0000000000000fed      0x4d8 build/pic32mz_ef_curiosity_v2/production/_ext/89352689/plib_gpio.o
- .debug_line    0x00000000000014c5      0x8d2 build/pic32mz_ef_curiosity_v2/production/_ext/1620630455/plib_i2c1_master.o
- .debug_line    0x0000000000001d97      0x2d9 build/pic32mz_ef_curiosity_v2/production/_ext/88968072/plib_tmr1.o
- .debug_line    0x0000000000002070      0x4fc build/pic32mz_ef_curiosity_v2/production/_ext/88949746/plib_uart6.o
- .debug_line    0x000000000000256c       0xfc build/pic32mz_ef_curiosity_v2/production/_ext/586341290/xc32_monitor.o
- .debug_line    0x0000000000002668      0x1e4 build/pic32mz_ef_curiosity_v2/production/_ext/969001572/initialization.o
- .debug_line    0x000000000000284c      0x123 build/pic32mz_ef_curiosity_v2/production/_ext/969001572/interrupts.o
- .debug_line    0x000000000000296f      0x15c build/pic32mz_ef_curiosity_v2/production/_ext/969001572/exceptions.o
- .debug_line    0x0000000000002acb      0x178 build/pic32mz_ef_curiosity_v2/production/_ext/1360937237/main_pic32mz.o
- .debug_line    0x0000000000002c43       0xa5 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
- .debug_line    0x0000000000002ce8       0xa9 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
- .debug_line    0x0000000000002d91       0xc8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
+ .debug_line    0x0000000000000000      0x364 build/pic32mz_ef_curiosity_v2/production/_ext/1520887106/plib_cache.o
+ .debug_line    0x0000000000000364      0x1c0 build/pic32mz_ef_curiosity_v2/production/_ext/412755682/plib_clk.o
+ .debug_line    0x0000000000000524      0x7dc build/pic32mz_ef_curiosity_v2/production/_ext/89445205/plib_dmac.o
+ .debug_line    0x0000000000000d00      0x325 build/pic32mz_ef_curiosity_v2/production/_ext/89406517/plib_evic.o
+ .debug_line    0x0000000000001025      0x4e6 build/pic32mz_ef_curiosity_v2/production/_ext/89352689/plib_gpio.o
+ .debug_line    0x000000000000150b      0x8e0 build/pic32mz_ef_curiosity_v2/production/_ext/1620630455/plib_i2c1_master.o
+ .debug_line    0x0000000000001deb      0x2e7 build/pic32mz_ef_curiosity_v2/production/_ext/88968072/plib_tmr1.o
+ .debug_line    0x00000000000020d2      0x50a build/pic32mz_ef_curiosity_v2/production/_ext/88949746/plib_uart6.o
+ .debug_line    0x00000000000025dc      0x10a build/pic32mz_ef_curiosity_v2/production/_ext/586341290/xc32_monitor.o
+ .debug_line    0x00000000000026e6      0x200 build/pic32mz_ef_curiosity_v2/production/_ext/969001572/initialization.o
+ .debug_line    0x00000000000028e6      0x131 build/pic32mz_ef_curiosity_v2/production/_ext/969001572/interrupts.o
+ .debug_line    0x0000000000002a17      0x16a build/pic32mz_ef_curiosity_v2/production/_ext/969001572/exceptions.o
+ .debug_line    0x0000000000002b81      0x186 build/pic32mz_ef_curiosity_v2/production/_ext/1360937237/main_pic32mz.o
+ .debug_line    0x0000000000002d07       0xa5 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
+ .debug_line    0x0000000000002dac       0xa9 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
+ .debug_line    0x0000000000002e55       0xc8 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
 
 .debug_frame    0x0000000000000000      0xc88
  *.elf(.debug_frame)
@@ -2428,25 +2428,25 @@ END GROUP
  .debug_frame   0x0000000000000c48       0x20 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
  .debug_frame   0x0000000000000c68       0x20 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
 
-.debug_str      0x0000000000000000     0x4cab
+.debug_str      0x0000000000000000     0x4d61
  *.elf(.debug_str)
  *(.debug_str)
- .debug_str     0x0000000000000000      0x71c build/pic32mz_ef_curiosity_v2/production/_ext/1520887106/plib_cache.o
- .debug_str     0x000000000000071c      0x3de build/pic32mz_ef_curiosity_v2/production/_ext/412755682/plib_clk.o
- .debug_str     0x0000000000000afa      0x8fd build/pic32mz_ef_curiosity_v2/production/_ext/89445205/plib_dmac.o
- .debug_str     0x00000000000013f7      0x47c build/pic32mz_ef_curiosity_v2/production/_ext/89406517/plib_evic.o
- .debug_str     0x0000000000001873      0x6ba build/pic32mz_ef_curiosity_v2/production/_ext/89352689/plib_gpio.o
- .debug_str     0x0000000000001f2d      0x784 build/pic32mz_ef_curiosity_v2/production/_ext/1620630455/plib_i2c1_master.o
- .debug_str     0x00000000000026b1      0x54b build/pic32mz_ef_curiosity_v2/production/_ext/88968072/plib_tmr1.o
- .debug_str     0x0000000000002bfc      0x560 build/pic32mz_ef_curiosity_v2/production/_ext/88949746/plib_uart6.o
- .debug_str     0x000000000000315c      0x2c9 build/pic32mz_ef_curiosity_v2/production/_ext/586341290/xc32_monitor.o
- .debug_str     0x0000000000003425      0x3fd build/pic32mz_ef_curiosity_v2/production/_ext/969001572/initialization.o
- .debug_str     0x0000000000003822      0x3f0 build/pic32mz_ef_curiosity_v2/production/_ext/969001572/interrupts.o
- .debug_str     0x0000000000003c12      0x3b3 build/pic32mz_ef_curiosity_v2/production/_ext/969001572/exceptions.o
- .debug_str     0x0000000000003fc5      0x30a build/pic32mz_ef_curiosity_v2/production/_ext/1360937237/main_pic32mz.o
- .debug_str     0x00000000000042cf      0x33e /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
- .debug_str     0x000000000000460d      0x346 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
- .debug_str     0x0000000000004953      0x358 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
+ .debug_str     0x0000000000000000      0x72a build/pic32mz_ef_curiosity_v2/production/_ext/1520887106/plib_cache.o
+ .debug_str     0x000000000000072a      0x3ec build/pic32mz_ef_curiosity_v2/production/_ext/412755682/plib_clk.o
+ .debug_str     0x0000000000000b16      0x90b build/pic32mz_ef_curiosity_v2/production/_ext/89445205/plib_dmac.o
+ .debug_str     0x0000000000001421      0x48a build/pic32mz_ef_curiosity_v2/production/_ext/89406517/plib_evic.o
+ .debug_str     0x00000000000018ab      0x6c8 build/pic32mz_ef_curiosity_v2/production/_ext/89352689/plib_gpio.o
+ .debug_str     0x0000000000001f73      0x792 build/pic32mz_ef_curiosity_v2/production/_ext/1620630455/plib_i2c1_master.o
+ .debug_str     0x0000000000002705      0x559 build/pic32mz_ef_curiosity_v2/production/_ext/88968072/plib_tmr1.o
+ .debug_str     0x0000000000002c5e      0x56e build/pic32mz_ef_curiosity_v2/production/_ext/88949746/plib_uart6.o
+ .debug_str     0x00000000000031cc      0x2d7 build/pic32mz_ef_curiosity_v2/production/_ext/586341290/xc32_monitor.o
+ .debug_str     0x00000000000034a3      0x40b build/pic32mz_ef_curiosity_v2/production/_ext/969001572/initialization.o
+ .debug_str     0x00000000000038ae      0x3fe build/pic32mz_ef_curiosity_v2/production/_ext/969001572/interrupts.o
+ .debug_str     0x0000000000003cac      0x3c1 build/pic32mz_ef_curiosity_v2/production/_ext/969001572/exceptions.o
+ .debug_str     0x000000000000406d      0x318 build/pic32mz_ef_curiosity_v2/production/_ext/1360937237/main_pic32mz.o
+ .debug_str     0x0000000000004385      0x33e /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-reset.o)
+ .debug_str     0x00000000000046c3      0x346 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(default-on-bootstrap.o)
+ .debug_str     0x0000000000004a09      0x358 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/libpic32.a(defaultinterrupt.o)
 
 .debug_loc      0x0000000000000000     0x1be7
  *.elf(.debug_loc)
@@ -2538,13 +2538,13 @@ END GROUP
  .gnu.attributes
                 0x00000000000000e0       0x10 build/pic32mz_ef_curiosity_v2/production/_ext/1360937237/main_pic32mz.o
  .gnu.attributes
-                0x00000000000000f0       0x10 /tmp/ccPCHbJT.o
+                0x00000000000000f0       0x10 /tmp/cc7DBMr7.o
  .gnu.attributes
-                0x0000000000000100       0x10 /tmp/cc1irFbx.o
+                0x0000000000000100       0x10 /tmp/cct81eKF.o
  .gnu.attributes
-                0x0000000000000110       0x10 /tmp/ccMxt2cr.o
+                0x0000000000000110       0x10 /tmp/ccXEuDjG.o
  .gnu.attributes
-                0x0000000000000120       0x10 /tmp/ccB7IoNv.o
+                0x0000000000000120       0x10 /tmp/cc8BUSOG.o
  .gnu.attributes
                 0x0000000000000130       0x10 /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
  .gnu.attributes
@@ -2641,10 +2641,10 @@ END GROUP
                 0x00000000bfc006d0                __pic32_tlb_init_values_end = ABSOLUTE (.)
                 0x00000000bfc00678                __pic32_tlb_init_values_count = 0x8
                 0x0000000000000200                _min_heap_size = 0x200
-LOAD /tmp/ccPCHbJT.o
-LOAD /tmp/cc1irFbx.o
-LOAD /tmp/ccMxt2cr.o
-LOAD /tmp/ccB7IoNv.o
+LOAD /tmp/cc7DBMr7.o
+LOAD /tmp/cct81eKF.o
+LOAD /tmp/ccXEuDjG.o
+LOAD /tmp/cc8BUSOG.o
 LOAD /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/../../../../pic32mx/lib/fpu64/pic32_software_reset.o
 LOAD /opt/microchip/xc32/v4.45/bin/bin/../../lib/gcc/pic32mx/8.3.1/fpu64/libgcc.a
 START GROUP
@@ -2672,37 +2672,37 @@ LOAD stack
 .__vector_offset_BF810540_data
                 0x00000000bf810540      0x1b0
  .__vector_offset_BF810540_data
-                0x00000000bf810540      0x1b0 /tmp/ccMxt2cr.o
+                0x00000000bf810540      0x1b0 /tmp/ccXEuDjG.o
 
 .__vector_offset_BF8106F4_data
                 0x00000000bf8106f4      0x148
  .__vector_offset_BF8106F4_data
-                0x00000000bf8106f4      0x148 /tmp/ccMxt2cr.o
+                0x00000000bf8106f4      0x148 /tmp/ccXEuDjG.o
 
 .__vector_offset_BF810874_data
                 0x00000000bf810874       0x18
  .__vector_offset_BF810874_data
-                0x00000000bf810874       0x18 /tmp/ccMxt2cr.o
+                0x00000000bf810874       0x18 /tmp/ccXEuDjG.o
 
 .__vector_offset_BF810858_data
                 0x00000000bf810858       0x14
  .__vector_offset_BF810858_data
-                0x00000000bf810858       0x14 /tmp/ccMxt2cr.o
+                0x00000000bf810858       0x14 /tmp/ccXEuDjG.o
 
 .__vector_offset_BF810840_data
                 0x00000000bf810840        0xc
  .__vector_offset_BF810840_data
-                0x00000000bf810840        0xc /tmp/ccMxt2cr.o
+                0x00000000bf810840        0xc /tmp/ccXEuDjG.o
 
 .__vector_offset_BF810850_data
                 0x00000000bf810850        0x4
  .__vector_offset_BF810850_data
-                0x00000000bf810850        0x4 /tmp/ccMxt2cr.o
+                0x00000000bf810850        0x4 /tmp/ccXEuDjG.o
 
 .__vector_offset_BF810894_data
                 0x00000000bf810894        0x4
  .__vector_offset_BF810894_data
-                0x00000000bf810894        0x4 /tmp/ccMxt2cr.o
+                0x00000000bf810894        0x4 /tmp/ccXEuDjG.o
 
 .bss            0x000000008000002c       0xc8
  .bss           0x000000008000002c       0x94 build/pic32mz_ef_curiosity_v2/production/_ext/89445205/plib_dmac.o
@@ -2808,7 +2808,7 @@ LOAD stack
 .text.main_entry
                 0x000000009d000190       0x54
  .text.main_entry
-                0x000000009d000190       0x54 /tmp/ccPCHbJT.o
+                0x000000009d000190       0x54 /tmp/cc7DBMr7.o
                 0x000000009d0001c4                __crt0_exit
 
 .text.TIMER_1_InterruptHandler

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <project>                                  
-  <executable name="dist/pic32mz_ef_curiosity_v2/debug/pic32mz_ef_curiosity_v2.X.debug.elf">                 
+  <executable name="dist/pic32mz_ef_curiosity_v2/debug/1-prender_led.X.debug.elf">                 
     <memory name="program">                 
       <units>bytes</units>                 
       <length>2098304</length>                 
-      <used>8528</used>                     
-      <free>2089776</free>                     
+      <used>7424</used>                     
+      <free>2090880</free>                     
     </memory>                              
     <memory name="data">              
       <units>bytes</units>                 
